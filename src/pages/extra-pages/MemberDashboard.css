@@ -1,0 +1,128 @@
+/* MemberDashboard.css */
+.separator {
+  border-bottom: 1px solid #eaeaea;
+  margin-bottom: 20px;
+}
+
+
+.member-card {
+  margin-bottom: 50px;
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+.purchase-card {
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+.form-side {
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.earn-points-transaction,
+.use-points-transaction {
+  background-color: #a6cdf7;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 20px;
+  font-size: 16px;
+}
+
+.earn-points-transaction:hover,
+.use-points-transaction:hover {
+  background-color: #0056b3;
+}
+
+.text-danger {
+  color: #ff0000;
+}
+
+.input-field{
+  width:300px;
+  padding:10px;
+  color:#757272d8;
+  margin-bottom:20px;
+}
+.card-row{
+  display:flex;
+  gap:50px;
+}
+
+.card-title{
+  font-size:25px;
+  font-weight: 600;
+}
+
+.heading-1,
+.heading-2,
+.heading-3{
+  font-size:25px;
+  font-weight:400;
+}
+
+.heading-1{
+  margin-left:70px;
+}
+ 
+.heading-3{
+  margin-left:60px;
+}
+
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 40px;
+}
+
+th, td {
+  padding: 15px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+
+td {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+th {
+  color: black;
+}
+
+tr:hover {
+  background-color: #00365a;
+  color: white;
+}
+
+.card-header {
+  display: flex;
+  justify-content: flex-start;
+  padding: 10px;
+  background: #f7f7f7;
+  border-bottom: 1px solid #ddd;
+}
+
+#smartWizardClickable{
+  background: #f7f7f7;
+  padding-left:20px;
+}
+
+.card-header li {
+  list-style: none;
+  margin-right: 20px;
+}
+
+.transactions
+button{
+  background-color: transparent;
+  border:1px solid black;
+  padding: 6px 12px;
+  border-radius:20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 16px;
+  cursor:pointer;
+}
